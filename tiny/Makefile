@@ -4,7 +4,7 @@ CFLAGS = -O2 -Wall -I .
 LIB = -lpthread
 
 # 기본 타겟: tiny, echo_server, echo_client 다 만들기
-all: tiny echo_server echo_client
+all: tiny cgi echo_server echo_client
 
 # ----------------------------
 # ✅ Tiny 웹 서버 빌드
